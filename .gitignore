@@ -1,12 +1,9 @@
 *.iml
-.gradle
 .idea
-.DS_Store
 build
 captures
 .externalNativeBuild
 .cxx
-local.properties
 xcuserdata
 .kotlin/
 
@@ -21,7 +18,6 @@ captures/
 *.ipr
 *~
 *.swp
-*.iml
 .idea/caches/
 .idea/libraries/
 .idea/shelf/

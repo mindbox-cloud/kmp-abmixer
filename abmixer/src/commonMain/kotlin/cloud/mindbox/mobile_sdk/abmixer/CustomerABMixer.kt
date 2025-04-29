@@ -3,6 +3,7 @@ package cloud.mindbox.mobile_sdk.abmixer
 interface CustomerAbMixer {
 
     companion object {
+        @Suppress("UNUSED")
         fun impl(): CustomerAbMixer = CustomerAbMixerImpl()
     }
 

@@ -1,17 +1,17 @@
 Pod::Spec.new do |spec|
-    spec.name                     = 'abmixer'
+    spec.name                     = 'AbMixer'
     spec.version                  = '1.0.0'
     spec.homepage                 = ''
     spec.source                   = { :http=> ''}
     spec.authors                  = ''
     spec.license                  = ''
     spec.summary                  = ''
-    spec.vendored_frameworks      = 'build/cocoapods/framework/abmixer.framework'
+    spec.vendored_frameworks      = 'build/cocoapods/framework/AbMixer.framework'
     spec.libraries                = 'c++'
                 
     spec.dependency 'Mindbox'
                 
-    if !Dir.exist?('build/cocoapods/framework/abmixer.framework') || Dir.empty?('build/cocoapods/framework/abmixer.framework')
+    if !Dir.exist?('build/cocoapods/framework/AbMixer.framework') || Dir.empty?('build/cocoapods/framework/AbMixer.framework')
         raise "
 
         Kotlin framework 'abmixer' doesn't exist yet, so a proper Xcode project can't be generated.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
                 
     spec.pod_target_xcconfig = {
         'KOTLIN_PROJECT_PATH' => ':abmixer',
-        'PRODUCT_MODULE_NAME' => 'abmixer',
+        'PRODUCT_MODULE_NAME' => 'AbMixer',
     }
                 
     spec.script_phases = [

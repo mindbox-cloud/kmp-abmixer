@@ -69,6 +69,6 @@ android {
 
 publishing {
     publications.withType<MavenPublication> {
-        artifactId = "abmixer"
+        artifactId = "AbMixer"
     }
 }

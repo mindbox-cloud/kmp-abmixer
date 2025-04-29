@@ -2,7 +2,6 @@ package cloud.mindbox.mobile_sdk.abmixer
 
 import kotlin.test.DefaultAsserter.assertEquals
 import kotlin.test.Test
-import kotlin.test.assertTrue
 
 
 class CustomerAbMixerTest {
